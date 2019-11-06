@@ -1,0 +1,66 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#e88617"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:text="Sign Up"
+        android:textSize="28dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="Please create user name "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="Please enter email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:hint="Please create password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:hint="Please enter phone number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--    <CheckBox-->
+    <!--        android:text="Remember me"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary2"
+        android:text="Sign Up"
+        android:textColor="#fff" />
+
+
+</LinearLayout>
